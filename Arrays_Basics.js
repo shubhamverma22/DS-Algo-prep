@@ -144,10 +144,14 @@ const rotateArrayLeftByOne = (arr5) => {
 };
 // Sol2. By using Swapping
 const rotateArrayLeftByOneUsingSwapping = (arr5) => {
-  
+  let temp = arr5[0];
+  for(let i = 0; i< arr5.length; i++) {
+    arr5[i] = arr5[i+1];
+  }
+  arr5[arr5.length - 1] = temp;
+  console.log('arr5:--', arr5);
+  return arr5
 }
-
-
 
 const arr5 = [1,2,3,4,5];
 rotateArrayLeftByOne(arr5);
