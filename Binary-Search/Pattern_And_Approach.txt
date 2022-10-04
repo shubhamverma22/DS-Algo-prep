@@ -1,0 +1,2 @@
+How to know we should apply BS in Questions?
+Ans- 98% chance the given array is sorted
