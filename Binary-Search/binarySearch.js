@@ -1,4 +1,6 @@
 // Simple binary Search
+// Using Iterative
+// Time Complexity: O(logN)
 function binarySearch(sortedArray, key) {
   if (!sortedArray.length) {
     return -1;

@@ -1,0 +1,7 @@
+what is call stack?
+-->     The call Stack is a way for javascript to keep track of the function that is being called, and also the functions from that function.
+    when a new function is to bhe executed, it is added to the top of the call stack and removed after execution.
+
+    Imp. - when it's completely executed than we removed from the call stack
+
+# diff b/w --n vs n--

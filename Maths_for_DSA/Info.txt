@@ -1,0 +1,54 @@
+# what does base represent?
+--> the figures of number i.e how many numbers we have.
+    e.g- base 10 it means 0 to 9 (decimal number system) like 357, 678
+         base 2 it means 0 to 1 (binary number system) like 001011, 10101
+         base 8 (octal number system) 0 to 7
+         base 16 (hexaDecimal (0 to 9 + a to f))
+
+
+# Bit Manipulation:-
+    Operators:-
+        1. AND -> All the number/codition between and should be true, than only the entire statement should be true
+        e.g - 0, 0 -> 0
+              0, 1 -> 0
+              1, 0 -> 0
+              1, 1 -> 1
+
+Note:- When you do & operation of 1 with any number, the digit will remains same
+        e.g-    110010100
+                111111111
+           o/p- 110010100
+
+
+
+
+        2. OR -> If any one of the expression is true then it consider the entire expressions are true
+        e.g - 0, 0 -> 0
+              0, 1 -> 1
+              1, 0 -> 1
+              1, 1 -> 1
+
+
+
+
+        3. XOR (^) exclusive or (only 1 should be true)
+Note:- When i xor any number with 1 it will compliment a number, i.e opposite
+        e.g - a ^ 1 = a compliment
+        e.g -   0, 0 -> 0
+                0, 1 -> 1
+                1, 0 -> 1
+                1, 1 -> 0
+
+        e.g 2 - const a = 5;        // 00000000000000000000000000000101
+                const b = 3;        // 00000000000000000000000000000011
+
+                console.log(a ^ b); // 00000000000000000000000000000110
+                // expected output: 6
+
+
+
+# Number System Conversion
+    1. conversion from decimal to Base b    -> keep dividing by base, take remainder and write in opposite
+        e.g -17 --> (10001)
+    2. conversion from Base b to decimal
+
